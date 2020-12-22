@@ -27,7 +27,7 @@ resource "google_compute_instance" "http_server" {
 
   boot_disk {
     initialize_params {
-      image = "projects/os-images-snd-20f9af31/global/images/ubuntu-2004-focal-v20201211-seb-53277"
+      image = "projects/cos-cloud/global/images/cos-85-13310-1041-38"
     }
   }
 
