@@ -27,7 +27,7 @@ resource "google_compute_instance" "http_server" {
 
   boot_disk {
     initialize_params {
-      image = "debian-cloud/debian-9"
+      image = "projects/os-images-snd-20f9af31/global/images/ubuntu-2004-focal-v20201211-seb-53277"
     }
   }
 
